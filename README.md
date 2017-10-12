@@ -1,4 +1,38 @@
 # hello-world
-beginner, learning java
+Learning Java, what do I need to improve
 
-Hi, Roberto here. I don't know any languages yet. I'm a student, I've never coded before and I need help. Programming logic is the class I'm taking now, basic stuff pretty much. I have to start working on my portfolio, and I will really like to make a tic tac toe game or something similar for a beginner like me. Any useful tips, tutorial and videos will be helpful. I don't know if I'm using github right, but I hope I am. 
+package learningjava;
+import java.util.Scanner;
+public class Information 
+{
+ public static void main(String[] args)
+ {  
+     Scanner in = new Scanner(System.in);
+     String name;
+     String address;
+     String city;
+     
+     System.out.println("Enter your first and last name");
+     name = in.nextLine();
+     
+     System.out.println("Enter your Address");
+     address = in.nextLine();
+     
+     System.out.println("Enter your city");
+     city = in.nextLine();
+     
+     System.out.println("Here is the information you provided: ");
+     System.out.println(name);
+     System.out.println(address);
+     System.out.println(city);
+     
+     if(!name.equals("address, city")) 
+     
+         System.out.println("Congratulations you pass");
+      
+     else 
+     
+        System.out.println("The Information you Entered is incorrect. "); 
+       
+ }
+}
